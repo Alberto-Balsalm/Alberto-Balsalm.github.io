@@ -1,0 +1,57 @@
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    background-color: rgb(232, 138, 154);
+}
+
+.wake-req {
+    color: red;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+    padding: 20px 0;
+    color: #9f0065;
+    text-shadow: 3px 3px 3px rgb(100, 45, 72);
+}
+
+.main {
+    color: rgb(7, 2, 14);
+    font-size: 25px;
+}
+
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+li {
+    text-align: left;
+}
+
+body {
+    width: 700px;
+    margin: 10px auto;
+    background-color: pink;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 650px;
+    height: 650px;
+    border: 3px solid rgb(34, 43, 45);
+    border-radius: 10px;
+}
+
+a:hover {
+    color: red;
+}
