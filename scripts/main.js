@@ -21,7 +21,7 @@ if (!localStorage.getItem("name")) {
     setUserName();
 } else {
     const storedName = localStorage.getItem("name");
-    myH1.textContent =  `haaaii ${storedName} :3`;
+    myH1.textContent =  `hi ${storedName} :3`;
     document.querySelector(".wake-req").textContent = `click on him to wake his ass up ${storedName}!`;
 }
 
